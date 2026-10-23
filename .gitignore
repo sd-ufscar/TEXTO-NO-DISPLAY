@@ -1,0 +1,13 @@
+# Bancos de compilacao regeneraveis do Quartus; fontes e IPs permanecem versionados.
+/Texto_Display/**/db/
+/Texto_Display/**/incremental_db/
+/Texto_Display/**/greybox_tmp/
+/Texto_Display/**/output_files/
+/Texto_Display/**/*.bak
+/Texto_Display/**/*.qws
+/Texto_Display/**/*.rdr.flock
+# Netlists e apoio da simulacao gerados a partir do projeto; capturas PNG preservadas.
+/Texto_Display/**/simulation/questa/*.vo
+/Texto_Display/**/simulation/questa/*.sft
+Thumbs.db
+.DS_Store
