@@ -37,6 +37,8 @@ O QPF conserva `QUARTUS_VERSION = "25.1"`, enquanto o QSF registra a última uti
 
 Os arquivos `.v` preservados pertencem aos componentes gerados pelo ambiente gráfico do Quartus. A implementação do experimento permanece em BDF; não foi adicionada uma reimplementação HDL.
 
+O atributo `linguist-generated` identifica esses arquivos de IP nos metadados do GitHub. Eles continuam presentes para reprodução do projeto; a marcação apenas os caracteriza como gerados para as estatísticas e comparações da plataforma.
+
 ## Exclusões do versionamento
 
 | Grupo | Justificativa |
