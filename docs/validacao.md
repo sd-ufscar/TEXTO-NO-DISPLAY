@@ -50,11 +50,3 @@ O atributo `linguist-generated` identifica esses arquivos de IP nos metadados do
 | `simulation/questa/*.vo` e `*.sft` | Netlist de simulação e arquivos de apoio gerados; não são estímulos originais ou configurações de IP |
 
 Não foram ignorados globalmente `.v`, `.qpf`, `.qsf`, `.bdf`, `.bsf`, `.qip`, `.mif`, `.hex`, `.cmp` ou `.inc`. A cópia local integral permanece preservada; as exclusões tratam do conteúdo enviado ao GitHub.
-
-## Relatórios e limites da validação
-
-Os resumos originais de [síntese](relatorios-originais/texto_display.map.summary), [Fitter](relatorios-originais/texto_display.fit.summary) e [temporização](relatorios-originais/texto_display.sta.summary) registram a compilação de **22 de outubro de 2026**. O Fitter consta como concluído, mas o Timing Analyzer apresenta folgas negativas. Esses registros não certificam fechamento temporal nem uma compilação executada durante a publicação.
-
-O Quartus Prime não foi encontrado no PATH ou nos diretórios usuais do ambiente. Não foram realizados abertura dos projetos no Quartus, nova síntese, simulação, gravação ou ensaio físico. O funcionamento descrito no [README](../README.md) é fundamentado nos esquemáticos, nos parâmetros dos IPs, no MIF e nos registros originais, com os cálculos teóricos identificados.
-
-Foram conferidos os links relativos, os hashes de preservação e os tamanhos dos arquivos preparados para commit. A inspeção automática do conteúdo novo não detectou padrões usuais de tokens, chaves privadas ou caminhos pessoais. Os arquivos preexistentes em `comprimido/` mantêm o conteúdo que já estava publicado.
