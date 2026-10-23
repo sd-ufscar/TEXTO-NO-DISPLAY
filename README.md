@@ -190,13 +190,3 @@ Com `quartus_sh` disponível, a compilação também pode ser iniciada no termin
 ```sh
 quartus_sh --flow compile texto_display
 ```
-
-A gravação JTAG por `.sof` é volátil. O projeto não implementa comandos por KEY ou SW para iniciar, pausar ou reiniciar a sequência. Uma nova programação reinicializa a configuração da FPGA; não equivale a um botão de reset previsto pelo esquema.
-
-## Preservação e validação
-
-Os arquivos preexistentes continuam disponíveis em [comprimido/README-original.md](comprimido/README-original.md), [comprimido/TEXTO_DISPLAY.zip](comprimido/TEXTO_DISPLAY.zip) e [comprimido/result.zip](comprimido/result.zip), sem mudanças de conteúdo. Os fontes individuais estão em `Texto_Display/`; não foi criado um ZIP substituto.
-
-Os originais locais e todos os arquivos de projeto publicados são preservados byte a byte. O [inventário](docs/inventario-local.csv) registra também os arquivos regeneráveis excluídos do versionamento. A [validação detalhada](docs/validacao.md) apresenta as conferências de integridade, dependências e limites de reprodução.
-
-Os relatórios originais registram uma compilação em **22 de outubro de 2026**, com Fitter concluído, 26 ALMs, 74 registradores e 512 bits de memória. Também apresentam ausência de `texto_display.sdc` e folgas negativas de temporização; esse histórico não comprova fechamento temporal. **A preparação desta publicação não executou uma nova compilação, simulação ou demonstração física**, pois o Quartus e a placa não estavam disponíveis no ambiente de validação.
